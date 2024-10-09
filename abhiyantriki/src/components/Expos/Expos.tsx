@@ -114,11 +114,73 @@ const PanelExpo: Component = () => {
   return <div></div>;
 };
 
+const AutoExpo: Component = () => {
+  return (
+    <div class="mt-5">
+      <h1 class="text-2xl font-bold tracking-widest md:hidden">Auto Expo</h1>
+      <div class="relative hidden md:block">
+        <img class="relative" src="components/Expos/banner.png" alt="banner" />
+        <img
+          class="absolute left-0 top-2"
+          src="components/Expos/overlay.png"
+          alt="overlay"
+        />
+
+        <h1 class="absolute left-[40rem] top-16 text-right text-7xl font-extrabold tracking-wider opacity-70">
+          <span class="block">INTERNSHIP</span>
+          <span class="block">EXPO</span>
+        </h1>
+
+        <p class="absolute left-10 top-56 w-[50rem] text-sm opacity-70">
+          Internship expo is one of the major events at Abhiyantriki. The main
+          objective of this expo is to provide students with a diverse range of
+          internship opportunities. These internships help the students acquaint
+          with a lot of new skills and give them the required work experience.
+          Internships play an essential role in magnifying the morale of the
+          students.
+        </p>
+      </div>
+    </div>
+  );
+};
+
+const StartupExpo: Component = () => {
+  return (
+    <div class="mt-5">
+      <h1 class="text-2xl font-bold tracking-widest md:hidden">Startup Expo</h1>
+      <div class="relative hidden md:block">
+        <img class="relative" src="components/Expos/banner.png" alt="banner" />
+        <img
+          class="absolute left-0 top-2"
+          src="components/Expos/overlay.png"
+          alt="overlay"
+        />
+
+        <h1 class="absolute left-[40rem] top-16 text-right text-7xl font-extrabold tracking-wider opacity-70">
+          <span class="block">INTERNSHIP</span>
+          <span class="block">EXPO</span>
+        </h1>
+
+        <p class="absolute left-10 top-56 w-[50rem] text-sm opacity-70">
+          Internship expo is one of the major events at Abhiyantriki. The main
+          objective of this expo is to provide students with a diverse range of
+          internship opportunities. These internships help the students acquaint
+          with a lot of new skills and give them the required work experience.
+          Internships play an essential role in magnifying the morale of the
+          students.
+        </p>
+      </div>
+    </div>
+  );
+};
+
 const expos = {
   Tech: TechExpo,
   Internship: InternshipExpo,
   Speakers: SpeakersExpo,
   Panel: PanelExpo,
+  Auto: AutoExpo,
+  Startup: StartupExpo,
 };
 
 const Expos: Component = () => {

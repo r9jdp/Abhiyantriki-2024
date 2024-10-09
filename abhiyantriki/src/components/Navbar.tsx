@@ -13,7 +13,7 @@ const NavbarItem: Component<NavbarItemProps> = ({
 }) => {
   return (
     <a
-      class="mx-4 my-4 duration-500 hover:text-slate-500 active:text-slate-700"
+      class="w-max text-sm mx-2 lg:mx-4 my-4 duration-500 hover:text-slate-500 active:text-slate-700"
       onClick={() => setOpen((open) => (open ? !open : false))}
       {...rest}
     >
@@ -29,7 +29,7 @@ const Navbar: Component = () => {
     <header class="fixed top-0 z-10 w-full bg-slate-900">
       <nav class="flex items-center justify-between p-2">
         <div class="h-16 w-64">
-          <img src="logo.png" alt="Logo" />
+          <img class="h-16" src="logo.png" alt="Logo" />
         </div>
 
         <div class="hidden md:flex">

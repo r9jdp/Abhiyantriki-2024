@@ -2,7 +2,10 @@ import { Component } from "solid-js";
 
 const Home: Component = () => {
   return (
-    <div id="home" class="hide flex min-h-screen items-center justify-center">
+    <div
+      id="home"
+      class="hide flex min-h-screen select-none items-center justify-center"
+    >
       <div class="m-auto h-[70vh] w-[90vw] items-center md:h-3/4 md:w-3/4 ">
         <img
           class=" h-[70vh] w-[90vw] md:h-3/4 md:pt-28"

@@ -3,7 +3,7 @@ import { getKeys } from "../util";
 import { Tab, Tabs } from "./next/Tabs";
 
 const YEARS = {
-  "2019": [
+  "2021": [
     "Accessories_Partner",
     "Audio_Partner",
     "Banking_Partner",
@@ -53,7 +53,7 @@ const YEARS = {
     "VR_Cricket_Partner",
     "Wafer_Partner",
   ],
-  "2020": [
+  "2022": [
     "Brought_To_You_By",
     "Career_Partner",
     "Delivery_Partner",
@@ -82,7 +82,7 @@ const YEARS = {
     "Technology_Partner",
     "Travel_Partner",
   ],
-  "2021": [
+  "2023": [
     "Title_Sponsor",
     "Programming_Partner",
     "Coding_Partner",
@@ -112,10 +112,25 @@ const YEARS = {
     "Online_Media_Partner_10",
     "Online_Media_Partner_11",
   ],
+  "2024": [
+    "Technology_Partner",
+    "Finance_Partner",
+    "Auto_Expo_Partner",
+    "Online_Media_Partner",
+    "Online_Media_Partner",
+    "Prevalent_Automotive",
+    "UBONA_GREAT_Master",
+    "Sach_Kahoon",
+    "Sachi_Shiksha",
+    "Red_FM",
+    "Flite_Labs",
+    "WolfX",
+    "KRAFTON_IN_ESPORTS",
+  ],
 } as const;
 
 const Sponsors: Component = () => {
-  const [selected, setSelected] = createSignal<keyof typeof YEARS>("2019");
+  const [selected, setSelected] = createSignal<keyof typeof YEARS>("2021");
 
   return (
     <div
@@ -135,7 +150,18 @@ const Sponsors: Component = () => {
         </Tabs>
       </div>
 
-      <div class=" gap-30 m-4 mx-20 grid h-[30rem] w-[70vw] grid-cols-3 items-center justify-items-center overflow-y-scroll md:grid-cols-4 md:gap-10">
+      <div class="gap-30 scrollbar-hide m-4 mx-20 grid h-[30rem] w-[70vw] grid-cols-3 items-center justify-items-center overflow-y-scroll md:grid-cols-4 md:gap-10">
+        <style>
+          {`
+            div::-webkit-scrollbar {
+              display: none;
+            }
+            div {
+              -ms-overflow-style: none; /* IE and Edge */
+              scrollbar-width: none; /* Firefox */
+            }
+          `}
+        </style>
         <For each={YEARS[selected()]}>
           {(slug) => (
             <div class="  m-2 items-center justify-center">

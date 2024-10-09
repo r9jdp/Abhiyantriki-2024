@@ -22,7 +22,7 @@ const Contact: Component = () => {
             </div>
             <ul class=" text-[15px]">
               <li class=" text-xl ">
-                <a href="#">KJSCE Students’ Council 23-24</a>
+                <a href="#">KJSCE Students’ Council 24-25</a>
               </li>
               <li class="mt-2">
                 <a
@@ -39,8 +39,8 @@ const Contact: Component = () => {
               </li>
               <li class="mt-2">
                 <a class=" hover:text-zinc-500" href="tel:+91-982-036-9740">
-                  <span>Fiyoni Paradia </span>
-                  +91 9820369750
+                  <span>Shlok Jain </span>
+                  +91 90043 27482
                 </a>
               </li>
               <li class="mt-8 text-xl">
@@ -48,14 +48,14 @@ const Contact: Component = () => {
               </li>
               <li class="mt-2">
                 <a class=" hover:text-zinc-500" href="tel:+91-730-487-3998">
-                  <span>Anwesh Bharadwaj </span>
-                  +91 7304873998
+                  <span>Rishi Shah </span>
+                  +91 91379 54546
                 </a>
               </li>
               <li class="mt-2">
                 <a class=" hover:text-zinc-500" href="tel:+91-810-892-8819">
-                  <span>Smit Malde </span>
-                  +91 8108928819
+                  <span>Shubham Gatkal </span>
+                  +91 97696 95343
                 </a>
               </li>
             </ul>
