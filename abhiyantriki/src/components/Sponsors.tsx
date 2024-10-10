@@ -124,7 +124,7 @@ const YEARS = {
     "Sachi_Shiksha",
     "Red_FM",
     "Flite_Labs",
-    "WolfX",
+    "Wolfx",
     "KRAFTON_IN_ESPORTS",
   ],
 } as const;

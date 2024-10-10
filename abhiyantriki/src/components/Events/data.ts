@@ -130,7 +130,7 @@ export const events: Record<string, EventInfo[]> = {
     {
       title: "Technical Paper Presentation",
       description:
-        "A debate is an organized argument or contest of ideas in which the participants discuss a topic from two opposing sides. Those who agree with this statement or idea are the 'Government' side. Those who will not agree with this statement or idea are the Opposition side.",
+        "The Technical Paper Presentation event offers participants the chance to present their research and innovative ideas on various technical subjects. Teams will be evaluated on the quality of their paper, presentation skills, and ability to answer questions effectively",
       entryFee: "100rs",
       members: "3 members per team",
       prize: "12,000 prize pool",
@@ -140,7 +140,7 @@ export const events: Record<string, EventInfo[]> = {
     {
       title: "Technovate",
       description:
-        "Participants are expected to formulate engineering solutions to the underlying issues hindering the smooth functioning of various aspects of the society.",
+        "Technovate is a thrilling competition where participants showcase their technical knowledge and problem-solving skills. Through engaging presentations and dynamic debates, teams will compete to prove their mastery of innovative solutions in the tech world",
       entryFee: "100rs",
       members: "3 members per team",
       prize: "12,000 prize pool",
@@ -150,7 +150,7 @@ export const events: Record<string, EventInfo[]> = {
     {
       title: "Tech Hunt",
       description:
-        "A classic game of follow the clues but with a element of surprise, where your technical knowledge will be pushed to its limits. So sign right up for this event that is sure to test both your bookish knowledge as well as street smarts! Happy hunting!",
+        "Follow the clues, crack the codes, and unlock the next location in this fast-paced, technology-driven hunt",
       entryFee: "100rs",
       members: "3 members per team",
       prize: "12,000 prize pool",
@@ -164,7 +164,7 @@ export const events: Record<string, EventInfo[]> = {
       description:
         "The legendary FIFA series has been produced by EA SPORTS for over 20 years, and is now the largest sports video game franchise on the planet. It is available on most platforms and boasts highly engaging and competitive gameplay",
       entryFee: "150rs",
-      members: "3 members per team",
+      members: "Individual",
       prize: "21,000 prize pool",
       contactNo: "+1 12312134",
       imageSlug: "FIFA.png",
@@ -187,37 +187,37 @@ export const events: Record<string, EventInfo[]> = {
       members: "4 members per team",
       prize: "20,000 prize pool",
       contactNo: "+1 12312134",
-      imageSlug: "cod.png",
+      imageSlug: "BGMI2.jpg",
     },
     {
       title: "BULLET ECHO",
       description:
         "ROCKET LEAGUE is the high-powered hybrid of arcade-style soccer and vehicular mayhem! Customize your car, hit the field, and compete in one of the most critically acclaimed sports games of all time!",
       entryFee: "FREE",
-      members: "3 members per team",
+      members: "Individual",
       prize: "10,000 prize pool",
       contactNo: "+1 12312134",
-      imageSlug: "RL.png",
+      imageSlug: "Bullet_Echo.jpeg",
     },
     {
       title: "ROAD TO VALOR",
       description:
         "ROCKET LEAGUE is the high-powered hybrid of arcade-style soccer and vehicular mayhem! Customize your car, hit the field, and compete in one of the most critically acclaimed sports games of all time!",
       entryFee: "FREE",
-      members: "3 members per team",
+      members: "Individual",
       prize: "10,000 prize pool",
       contactNo: "+1 12312134",
-      imageSlug: "RL.png",
+      imageSlug: "RoadtoValorEmpires.png",
     },
     {
       title: "REAL CRICKET 24",
       description:
         "ROCKET LEAGUE is the high-powered hybrid of arcade-style soccer and vehicular mayhem! Customize your car, hit the field, and compete in one of the most critically acclaimed sports games of all time!",
       entryFee: "FREE",
-      members: "3 members per team",
+      members: "Individual",
       prize: "10,000 prize pool",
       contactNo: "+1 12312134",
-      imageSlug: "RL.png",
+      imageSlug: "Realcricket24.jpg",
     },
   ],
 };
