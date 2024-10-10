@@ -1,4 +1,5 @@
 import { Component } from "solid-js";
+import "../font.css";
 
 const Home: Component = () => {
   return (
@@ -22,15 +23,15 @@ const Home: Component = () => {
         </div>
         <div
           id="txt"
-          class="show m-auto -mt-10 hidden -translate-x-2/4 -translate-y-[300px] flex-col items-center justify-center gap-[150px] text-center text-[40px] font-black md:mt-1 md:block md:-translate-y-[30vh] md:gap-[50px] md:text-[120px]"
+          class="Montserratfont show m-auto  hidden -translate-x-2/4 -translate-y-[300px] flex-col items-center justify-center gap-[150px] text-center text-[40px] font-black md:block md:-translate-y-[30vh] md:gap-[50px] md:text-[120px]"
         >
           <div
             id="txt1"
-            class=" items-center justify-center border-slate-50 align-middle text-slate-900 opacity-50 outline-4  "
+            class="items-center justify-center border-slate-50 align-middle text-slate-900 opacity-50 outline-4  "
           >
             abhiyantriki
           </div>
-          <div class="hide  -m-12">abhiyantriki</div>
+          <div class="hide -m-12 ">abhiyantriki</div>
           <div
             id="txt2"
             class="items-center justify-center border-slate-50 align-middle text-slate-900 opacity-50 outline-4"
