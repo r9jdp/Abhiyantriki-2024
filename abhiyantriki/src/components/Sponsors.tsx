@@ -131,7 +131,8 @@ const YEARS = {
 
 const Sponsors: Component = () => {
   const [selected, setSelected] = createSignal<keyof typeof YEARS>("2021");
-
+  const wolfx_url =
+    "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSaxGQ_TaKYLhYeMF9zKBTUwtQmFU02OmvvCA&s";
   return (
     <div
       id="sponsors"
@@ -176,7 +177,7 @@ const Sponsors: Component = () => {
           )}
         </For>
         <div class="  m-2 items-center justify-center">
-          <img src="components/Sponsors/2024/Wolfx.png" alt={"Wolfx"} />
+          <img src={wolfx_url} alt="Wolfx" />
           <h1 class="my-5 text-center text-xs font-bold ">Wolfx</h1>
         </div>
       </div>
