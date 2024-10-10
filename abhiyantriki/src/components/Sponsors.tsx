@@ -124,7 +124,7 @@ const YEARS = {
     "Sachi_Shiksha",
     "Red_FM",
     "Flite_Labs",
-    "Wolfx",
+    // "Wolfx",
     "KRAFTON_IN_ESPORTS",
   ],
 } as const;
@@ -175,6 +175,10 @@ const Sponsors: Component = () => {
             </div>
           )}
         </For>
+        <div class="  m-2 items-center justify-center">
+          <img src="components/Sponsors/2024/Wolfx.png" alt={"Wolfx"} />
+          <h1 class="my-5 text-center text-xs font-bold ">Wolfx</h1>
+        </div>
       </div>
     </div>
   );
