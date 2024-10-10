@@ -7,83 +7,177 @@ export interface ExpoInfo {
 export const expos: Record<string, ExpoInfo[]> = {
   Tech: [
     {
-      title: "Tech Expo",
+      title: "Robobionics - Robots",
       description:
         "Tech Expo is a unique exhibition and the most anticipated event at Abhiyantriki. With innovative technologies from all over the country, the Tech Expo contains exhibits from well-known organisations namely DRDO, ISRO, IMD, DAE and innovations ranging from speed-defying drones to humanoid robots with intellect on par with a human being.",
       imageSlug: "tech/army 1.png",
     },
     {
-      title: "Tech Expo",
+      title: "TechnoArc - Robots and Humanoids",
       description:
         "Tech Expo is a unique exhibition and the most anticipated event at Abhiyantriki. With innovative technologies from all over the country, the Tech Expo contains exhibits from well-known organisations namely DRDO, ISRO, IMD, DAE and innovations ranging from speed-defying drones to humanoid robots with intellect on par with a human being.",
-      imageSlug: "tech/ROBOT PSG 1.png",
+      imageSlug: "tech/army 1.png",
     },
     {
-      title: "Tech Expo",
+      title: "Vayushastra (Aircraft) - FRCRCE (college)",
       description:
         "Tech Expo is a unique exhibition and the most anticipated event at Abhiyantriki. With innovative technologies from all over the country, the Tech Expo contains exhibits from well-known organisations namely DRDO, ISRO, IMD, DAE and innovations ranging from speed-defying drones to humanoid robots with intellect on par with a human being.",
-      imageSlug: "tech/drone 1.png",
+      imageSlug: "tech/army 1.png",
     },
     {
-      title: "Test",
-      description: "Test",
-      imageSlug: "none.png",
+      title: "Phoenix (drone) - DJS (college)",
+      description:
+        "Tech Expo is a unique exhibition and the most anticipated event at Abhiyantriki. With innovative technologies from all over the country, the Tech Expo contains exhibits from well-known organisations namely DRDO, ISRO, IMD, DAE and innovations ranging from speed-defying drones to humanoid robots with intellect on par with a human being.",
+      imageSlug: "tech/army 1.png",
+    },
+    {
+      title: "Vishwa (Mars Rover) - Vjti (college)",
+      description:
+        "Tech Expo is a unique exhibition and the most anticipated event at Abhiyantriki. With innovative technologies from all over the country, the Tech Expo contains exhibits from well-known organisations namely DRDO, ISRO, IMD, DAE and innovations ranging from speed-defying drones to humanoid robots with intellect on par with a human being.",
+      imageSlug: "tech/army 1.png",
+    },
+    {
+      title: "Vayuputra (UAV for Payload delivery) - VJTI (college)",
+      description:
+        "Tech Expo is a unique exhibition and the most anticipated event at Abhiyantriki. With innovative technologies from all over the country, the Tech Expo contains exhibits from well-known organisations namely DRDO, ISRO, IMD, DAE and innovations ranging from speed-defying drones to humanoid robots with intellect on par with a human being.",
+      imageSlug: "tech/army 1.png",
+    },
+    {
+      title: "Viyomkirna (Rnd in Quadcopter) - VJTI (college)",
+      description:
+        "Tech Expo is a unique exhibition and the most anticipated event at Abhiyantriki. With innovative technologies from all over the country, the Tech Expo contains exhibits from well-known organisations namely DRDO, ISRO, IMD, DAE and innovations ranging from speed-defying drones to humanoid robots with intellect on par with a human being.",
+      imageSlug: "tech/army 1.png",
+    },
+    {
+      title: "Redshift (MegaProject) - KJSCE",
+      description:
+        "Tech Expo is a unique exhibition and the most anticipated event at Abhiyantriki. With innovative technologies from all over the country, the Tech Expo contains exhibits from well-known organisations namely DRDO, ISRO, IMD, DAE and innovations ranging from speed-defying drones to humanoid robots with intellect on par with a human being.",
+      imageSlug: "tech/army 1.png",
+    },
+    {
+      title: "Robocon (MegaProject) - KJSCE",
+      description:
+        "Tech Expo is a unique exhibition and the most anticipated event at Abhiyantriki. With innovative technologies from all over the country, the Tech Expo contains exhibits from well-known organisations namely DRDO, ISRO, IMD, DAE and innovations ranging from speed-defying drones to humanoid robots with intellect on par with a human being.",
+      imageSlug: "tech/army 1.png",
+    },
+    {
+      title: "Onyx (MegaProject) - KJSCE",
+      description:
+        "Tech Expo is a unique exhibition and the most anticipated event at Abhiyantriki. With innovative technologies from all over the country, the Tech Expo contains exhibits from well-known organisations namely DRDO, ISRO, IMD, DAE and innovations ranging from speed-defying drones to humanoid robots with intellect on par with a human being.",
+      imageSlug: "tech/army 1.png",
+    },
+    {
+      title: "ETA (MegaProject) - KJSCE",
+      description:
+        "Tech Expo is a unique exhibition and the most anticipated event at Abhiyantriki. With innovative technologies from all over the country, the Tech Expo contains exhibits from well-known organisations namely DRDO, ISRO, IMD, DAE and innovations ranging from speed-defying drones to humanoid robots with intellect on par with a human being.",
+      imageSlug: "tech/army 1.png",
+    },
+    {
+      title: "Orion Racing (MegaProject) - KJSCE",
+      description:
+        "Tech Expo is a unique exhibition and the most anticipated event at Abhiyantriki. With innovative technologies from all over the country, the Tech Expo contains exhibits from well-known organisations namely DRDO, ISRO, IMD, DAE and innovations ranging from speed-defying drones to humanoid robots with intellect on par with a human being.",
+      imageSlug: "tech/army 1.png",
+    },
+    {
+      title: "The Marine Robotics Team (MegaProject) - KJSCE",
+      description:
+        "Tech Expo is a unique exhibition and the most anticipated event at Abhiyantriki. With innovative technologies from all over the country, the Tech Expo contains exhibits from well-known organisations namely DRDO, ISRO, IMD, DAE and innovations ranging from speed-defying drones to humanoid robots with intellect on par with a human being.",
+      imageSlug: "tech/army 1.png",
+    },
+    {
+      title: "Team Vision (MegaProject) - KJSCE",
+      description:
+        "Tech Expo is a unique exhibition and the most anticipated event at Abhiyantriki. With innovative technologies from all over the country, the Tech Expo contains exhibits from well-known organisations namely DRDO, ISRO, IMD, DAE and innovations ranging from speed-defying drones to humanoid robots with intellect on par with a human being.",
+      imageSlug: "tech/army 1.png",
     },
   ],
+
   Internship: [
     {
-      title: "",
+      title: "Ubona technologies",
       description:
-        "Internship expo is one of the major events at Abhiyantriki. The main objective of this expo is to provide students with a diverse range of internship opportunities",
-      imageSlug: "internship/H 1.png",
+        "Ubona: A future-ready contact centre solution using AI technologies that will enable users to engage with products and services seamlessly.",
+      imageSlug:
+        "https://media.licdn.com/dms/image/v2/D560BAQFAqHf3l-rntg/company-logo_200_200/company-logo_200_200/0/1690903710638/ubona_logo?e=2147483647&v=beta&t=LcxHro9P3WQhvNFujlyPQTqFByxPtCHxe386-9UFzjk",
     },
     {
-      title: "",
+      title: "LyondellBasell",
       description:
-        "Internship expo is one of the major events at Abhiyantriki. The main objective of this expo is to provide students with a diverse range of internship opportunities",
-      imageSlug: "internship/STRICLY ELECTRIC 1.png",
+        "LyondellBasell: A global leader in developing and supplying materials that enable packaging, health, and transportation solutions.",
+      imageSlug:
+        "https://www.lyondellbasell.com/4ab109/globalassets/about-us/lyb.com-thumbnail.png",
     },
     {
-      title: "",
+      title: "Wolfx",
       description:
-        "Internship expo is one of the major events at Abhiyantriki. The main objective of this expo is to provide students with a diverse range of internship opportunities",
-      imageSlug: "internship/KANAN PARK 1.png",
-    },
-    {
-      title: "",
-      description:
-        "Internship expo is one of the major events at Abhiyantriki. The main objective of this expo is to provide students with a diverse range of internship opportunities",
-      imageSlug: "internship/MEDPIPER 1.png",
-    },
-    {
-      title: "",
-      description:
-        "Internship expo is one of the major events at Abhiyantriki. The main objective of this expo is to provide students with a diverse range of internship opportunities",
-      imageSlug: "internship/SCALING WEB 1.png",
-    },
-
-    {
-      title: "",
-      description:
-        "Internship expo is one of the major events at Abhiyantriki. The main objective of this expo is to provide students with a diverse range of internship opportunities",
-      imageSlug: "internship/ENBEDOS 1.png",
+        "WOLFx: A leader in Website Development, Mobile App Development, UI/UX/CX, Server Deployment, IT Consultation, Digital Marketing and Cybersecurity Services.",
+      imageSlug: "components/Sponsors/2024/Wolfx.png",
     },
   ],
   Speakers: [
     {
-      title: "DR. SRIVARI CHARNDRASEKHAR",
-      description:
-        "Secretary to the Government of India, Department of Science & TechnologyTechnology Bhawan.Dr. Srivari Chandrasekhar has made significant contributions in diverse areas of organic chemistry especially in chiral chemistry and total synthesis of biologically active natural products (marine natural products with architectural complexity).",
-      imageSlug: "speaker and panel/sp.png",
+      title: "Arif Khan",
+      description: `
+        Chief Innovation Officer
+        at Razorpay.
+  
+        A leader in fintech
+        innovation who has
+        previously served as
+        Chief Digital Officer
+        at NPCI.
+        Held key roles at
+        Mastercard and HDFC
+        Bank.
+      `,
+      imageSlug: "speaker and panel/ARIFKHAN_BGREMOVED.png",
     },
     {
-      title: "HARISHANKARAN.K",
-      description:
-        "Co-Founder & CTO - HackerRank Mr. Hari K, co-founded HackerRank in 2009 with an aim to overcome recruiting problems faced by companies back in the day. The brains behind the in-house code checker, the core of HackerRank.",
-      imageSlug: "speaker and panel/sp2.png",
+      title: "Kumar Krishnamoorhty",
+      description: `
+        Ex - Deputy General Manager - ISRO.
+        He is a specialist in liquid rocket engine fabrication, playing a key role in developing the Vikas engine, based on the French Viking engine. His work has been pivotal in its application in PSLV, GSLV Mark II, and LVM-3 (GSLV Mark III) launch vehicles. Currently, he serves as a technical adviser at Godrej Aerospace in Mumbai, focusing on advancements in liquid rocket engine manufacturing and innovative techniques.
+      `,
+      imageSlug: "speaker and panel/Kumar K.jpg", // Adjust the image path as needed
     },
   ],
+
   Panel: [
+    {
+      title: "To be Revealed Soon...",
+      description: "",
+      imageSlug: "abhiyantriki2.png",
+    },
+  ],
+  Auto: [
+    { title: "BMW Z4 Roadster", description: "", imageSlug: "" },
+    {
+      title: "Mercedes S class 500 AMG Limited Edition",
+      description: "",
+      imageSlug: "",
+    },
+    { title: "BMW E60", description: "", imageSlug: "" },
+    { title: "Skoda Laura VRS", description: "", imageSlug: "" },
+    { title: "Honda Accord V6 JDM", description: "", imageSlug: "" },
+    { title: "Volkswagen Beetle 1303", description: "", imageSlug: "" },
+    { title: "Mercedes E Class", description: "", imageSlug: "" },
+    { title: "Honda Civic EG", description: "", imageSlug: "" },
+    { title: "BMW 5 Series", description: "", imageSlug: "" },
+    { title: "Mercedes 204", description: "", imageSlug: "" },
+    { title: "Triumph Daytona 675", description: "", imageSlug: "" },
+    { title: "Ninja Kawasaki Z1000R", description: "", imageSlug: "" },
+    {
+      title: "Harley Davidson Heritage Softail",
+      description: "",
+      imageSlug: "",
+    },
+    { title: "Beneli 600i TNT", description: "", imageSlug: "" },
+    { title: "BMW G310 GS", description: "", imageSlug: "" },
+    { title: "BMW G310 RR", description: "", imageSlug: "" },
+    { title: "BMW G310 R", description: "", imageSlug: "" },
+    { title: "BMW CE 04/ CE 02", description: "", imageSlug: "" },
+  ],
+  Startup: [
     {
       title: "GAUTAAM BORAH",
       description:

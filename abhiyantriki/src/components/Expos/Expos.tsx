@@ -111,7 +111,7 @@ const SpeakersExpo: Component = () => {
 };
 
 const PanelExpo: Component = () => {
-  return <div></div>;
+  return <div> </div>;
 };
 
 const AutoExpo: Component = () => {
@@ -127,7 +127,7 @@ const AutoExpo: Component = () => {
         />
 
         <h1 class="absolute left-[40rem] top-16 text-right text-7xl font-extrabold tracking-wider opacity-70">
-          <span class="block">INTERNSHIP</span>
+          <span class="block">AUTO</span>
           <span class="block">EXPO</span>
         </h1>
 
@@ -238,15 +238,23 @@ const Expos: Component = () => {
           const pageIndex = selectedPage();
 
           return pages[pageIndex].map(({ title, description, imageSlug }) => (
-            <div class="mt-20 h-[30rem] w-80 rounded-3xl bg-slate-950 p-3 text-center duration-500 hover:scale-110 hover:bg-slate-700 hover:!opacity-100 hover:!blur-0 group-hover:opacity-50 group-hover:blur">
-              <img src={imageSlug} class="m-auto -mt-20 w-96"></img>
+            <div class="mt-20 flex h-[30rem] w-80 flex-col rounded-3xl bg-slate-950 p-3 text-center duration-500 hover:scale-110 hover:bg-slate-700 hover:!opacity-100 hover:!blur-0 group-hover:opacity-50 group-hover:blur">
+              {title === "Kumar Krishnamoorhty" ? (
+                <img src={imageSlug} class="m-auto -mt-3 h-40 w-56"></img>
+              ) : (
+                <img src={imageSlug} class="m-auto -mt-20 w-96"></img>
+              )}
 
-              <h1 class="m-auto -mt-10 p-5 text-center text-4xl font-bold">
+              <h1
+                class={`m-auto p-5 text-center ${
+                  title === "Kumar Krishnamoorhty" ? "text-xl" : "text-2xl"
+                } font-bold`}
+              >
                 {title}
               </h1>
               <p class="m-auto mt-5 text-center text-xs ">{description}</p>
 
-              <button class="mt-10 rounded-full bg-gray-600 p-2 text-center uppercase text-white duration-200 hover:bg-gray-800">
+              <button class="mt-10 rounded-full bg-blue-600 p-2 text-center uppercase text-white duration-200 hover:bg-gray-800">
                 View More
               </button>
             </div>

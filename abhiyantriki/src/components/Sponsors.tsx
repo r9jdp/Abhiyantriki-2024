@@ -117,7 +117,6 @@ const YEARS = {
     "Finance_Partner",
     "Auto_Expo_Partner",
     "Online_Media_Partner",
-    "Online_Media_Partner",
     "Prevalent_Automotive",
     "UBONA_GREAT_Master",
     "Sach_Kahoon",
@@ -151,7 +150,7 @@ const Sponsors: Component = () => {
         </Tabs>
       </div>
 
-      <div class="gap-30 scrollbar-hide m-4 mx-20 grid h-[30rem] w-[70vw] grid-cols-3 items-center justify-items-center overflow-y-scroll md:grid-cols-4 md:gap-10">
+      <div class="gap-30 scrollbar-hide m-4 mx-20 grid h-[30rem] w-[70vw] grid-cols-1 items-center justify-items-center overflow-y-scroll md:grid-cols-3 md:gap-10">
         <style>
           {`
             div::-webkit-scrollbar {
