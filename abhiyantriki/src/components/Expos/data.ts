@@ -150,33 +150,17 @@ export const expos: Record<string, ExpoInfo[]> = {
     },
   ],
   Auto: [
-    { title: "BMW Z4 Roadster", description: "", imageSlug: "" },
     {
-      title: "Mercedes S class 500 AMG Limited Edition",
-      description: "",
-      imageSlug: "",
+      "title": "Cars",
+      "description": "Explore a range of stunning vehicles including the BMW Z4 Roadster, Mercedes S Class 500 AMG Limited Edition, BMW E60, Skoda Laura VRS, Honda Accord V6 JDM, Volkswagen Beetle 1303, Mercedes E Class, Honda Civic EG, BMW 5 Series, and Mercedes 204.",
+      "imageSlug": ""
     },
-    { title: "BMW E60", description: "", imageSlug: "" },
-    { title: "Skoda Laura VRS", description: "", imageSlug: "" },
-    { title: "Honda Accord V6 JDM", description: "", imageSlug: "" },
-    { title: "Volkswagen Beetle 1303", description: "", imageSlug: "" },
-    { title: "Mercedes E Class", description: "", imageSlug: "" },
-    { title: "Honda Civic EG", description: "", imageSlug: "" },
-    { title: "BMW 5 Series", description: "", imageSlug: "" },
-    { title: "Mercedes 204", description: "", imageSlug: "" },
-    { title: "Triumph Daytona 675", description: "", imageSlug: "" },
-    { title: "Ninja Kawasaki Z1000R", description: "", imageSlug: "" },
     {
-      title: "Harley Davidson Heritage Softail",
-      description: "",
-      imageSlug: "",
-    },
-    { title: "Beneli 600i TNT", description: "", imageSlug: "" },
-    { title: "BMW G310 GS", description: "", imageSlug: "" },
-    { title: "BMW G310 RR", description: "", imageSlug: "" },
-    { title: "BMW G310 R", description: "", imageSlug: "" },
-    { title: "BMW CE 04/ CE 02", description: "", imageSlug: "" },
-  ],
+      "title": "Bikes",
+      "description": "Discover powerful bikes such as the Triumph Daytona 675, Ninja Kawasaki Z1000R, Harley Davidson Heritage Softail, Benelli 600i TNT, BMW G310 GS, BMW G310 RR, and BMW G310 R.",
+      "imageSlug": ""
+    }
+  ],  
   Startup: [
     {
       title: "GAUTAAM BORAH",
