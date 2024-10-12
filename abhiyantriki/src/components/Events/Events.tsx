@@ -15,7 +15,6 @@ const Events: Component = () => {
     for (let i = 0; i < events.length; i += EVENTS_PER_VIEW) {
       chunks.push(events.slice(i, i + EVENTS_PER_VIEW));
     }
-
     return chunks;
   };
 
@@ -54,14 +53,14 @@ const Events: Component = () => {
           <TbArrowLeft size={30} />
         </button>
 
-        <div class=" group mt-12 flex h-[90vh] w-[73vw] content-center items-start justify-start gap-24 overflow-auto px-4  py-5 md:w-[80vw]  md:justify-center md:gap-5">
+        <div class="group mt-12 flex w-[73vw] flex-wrap justify-center gap-8 overflow-auto px-4 py-5 md:w-[80vw]">
           {(() => {
             const pages = paginateEvents(selectedEvents());
-            // If the currently selected page is the first page and the previous button is clicked (negative index), change the selected page to the last page.
+
+            // Handle page overflow
             if (selectedPage() === -1) {
               setSelectedPage(pages.length - 1);
             }
-            // If the currently selected page is the last page and the next button is clicked, change the selected page to the first page.
             if (selectedPage() === pages.length) {
               setSelectedPage(0);
             }
@@ -76,13 +75,14 @@ const Events: Component = () => {
                 contactNo,
                 imageSlug,
               }) => (
-                <div class="mt-10 h-[32rem] w-[60vw] rounded-3xl bg-slate-700 p-3 duration-500 hover:scale-110 hover:bg-slate-500 hover:!opacity-100 hover:!blur-0 group-hover:opacity-50 group-hover:blur md:w-[20vw]">
-                  <p>
+                <div class="flex h-[32rem] w-[60vw] flex-col rounded-3xl bg-slate-700 p-5 transition-transform duration-300 ease-in-out hover:scale-105 hover:shadow-lg md:w-[20vw]">
+                  {selected() === "Tech Shield" ||
+                  selected() === "Tech MUN" ? null : (
                     <img
                       src={imageSlug}
                       class="m-auto -mt-11 w-24 content-center self-center"
-                    ></img>
-                  </p>
+                    />
+                  )}
                   <h1 class="items-center text-center text-2xl font-bold">
                     {title}
                   </h1>
@@ -91,36 +91,49 @@ const Events: Component = () => {
                       {description}
                     </p>
                   </div>
-                  <div class=" flex flex-col items-center justify-center gap-2">
-                    <div class="flex h-10 w-60 items-center justify-center text-center text-sm">
-                      <img
-                        class=" h-12 items-center gap-6"
-                        src="entry.png"
-                      ></img>
-                      {entryFee}
-                    </div>
-                    <div class=" flex h-10 w-60 justify-center text-center  text-sm ">
-                      <img class="h-8 gap-6" src="prize.png" />
-                      {prize}
-                    </div>
-                    <div class=" flex h-10 w-60 justify-center text-center  text-sm">
-                      <img class="h-5 gap-6" src="member.png" />
-                      {members}
-                    </div>
-                    <div class="flex h-10 w-60 justify-center text-center  text-sm">
-                      <img class="h-6 gap-6" src="call.png" />
-                      {contactNo}
-                    </div>
-                    <div>
-                      <a
-                        href="#_"
-                        class="group relative inline-flex h-[32px] items-center justify-center overflow-hidden rounded-full p-4 px-5 py-3 font-medium text-green-600 shadow-xl transition duration-300 ease-out hover:ring-1 hover:ring-white"
-                      >
-                        <span class="absolute inset-0 h-full w-full bg-gradient-to-br from-green-600 via-green-600 to-green-700"></span>
-                        <span class="ease absolute bottom-0 right-0 mb-32 mr-4 block h-64 w-64 origin-bottom-left translate-x-24 rotate-45 transform rounded-full bg-green-500 opacity-30 transition duration-500 group-hover:rotate-90"></span>
-                        <span class="relative text-white">Register</span>
-                      </a>
-                    </div>
+                  <div class="flex flex-col items-center justify-center gap-2">
+                    {selected() === "Tech MUN" ? (
+                      <div>
+                        <a
+                          href="https://docs.google.com/forms/d/e/1FAIpQLScK7J2JFOn0avxhRg883Ca0o42csOAzOLingqUlvbyJ4iYCtg/viewform?usp=sharing"
+                          type="button"
+                          class="mb-2 me-2 cursor-pointer rounded-full bg-green-700 px-5 py-2.5 text-center text-sm font-medium text-white hover:bg-green-800 focus:outline-none focus:ring-4 focus:ring-green-300 dark:bg-green-600 dark:hover:bg-green-700 dark:focus:ring-green-800"
+                        >
+                          Register
+                        </a>
+                      </div>
+                    ) : selected() === "Tech Shield" ? null : (
+                      <>
+                        <div class="flex h-10 w-60 items-center justify-center text-center text-sm">
+                          <img
+                            class="h-12 items-center gap-6"
+                            src="entry.png"
+                          />
+                          {entryFee}
+                        </div>
+                        <div class="flex h-10 w-60 justify-center text-center text-sm">
+                          <img class="h-8 gap-6" src="prize.png" />
+                          {prize}
+                        </div>
+                        <div class="flex h-10 w-60 justify-center text-center text-sm">
+                          <img class="h-5 gap-6" src="member.png" />
+                          {members}
+                        </div>
+                        <div class="flex h-10 w-60 justify-center text-center text-sm">
+                          <img class="h-6 gap-6" src="call.png" />
+                          {contactNo}
+                        </div>
+                        <div>
+                          <a
+                            href="#"
+                            type="button"
+                            class="mb-2 me-2 cursor-pointer rounded-full bg-green-700 px-5 py-2.5 text-center text-sm font-medium text-white hover:bg-green-800 focus:outline-none focus:ring-4 focus:ring-green-300 dark:bg-green-600 dark:hover:bg-green-700 dark:focus:ring-green-800"
+                          >
+                            Register
+                          </a>
+                        </div>
+                      </>
+                    )}
                   </div>
                 </div>
               ),

@@ -12,7 +12,8 @@ export const events: Record<string, EventInfo[]> = {
   Tech: [
     {
       title: "Bid-By-Bit",
-      description: "THE EVENT CHALLENGES TEAMS TO TEST THEIR SKILLS ON DATA STRUCTURES",
+      description:
+        "THE EVENT CHALLENGES TEAMS TO TEST THEIR SKILLS ON DATA STRUCTURES",
       entryFee: "50rs Per Participant",
       members: "GROUP COMPETITION",
       prize: "Cash prize worth 8k Goodies worth 20k",
@@ -21,7 +22,8 @@ export const events: Record<string, EventInfo[]> = {
     },
     {
       title: "CSI - Algorithmic Trading",
-      description: "THE EVENT CHALLENGES TEAMS TO TEST THEIR SKILLS ON DATA STRUCTURES",
+      description:
+        "THE EVENT CHALLENGES TEAMS TO TEST THEIR SKILLS ON DATA STRUCTURES",
       entryFee: "250rs Per Participant",
       members: "INDIVIDUAL COMPETITION",
       prize: "Cash prize worth 8k Goodies worth 20k",
@@ -106,27 +108,17 @@ export const events: Record<string, EventInfo[]> = {
       imageSlug: "rush.png",
     },
   ],
-  // Ideate: [
-  //   {
-  //     title: "",
-  //     description: "A coding challenge in Bhailang",
-  //     entryFee: "100rs",
-  //     members: "3 members per team",
-  //     prize: "12,000 prize pool",
-  //     contactNo: "+1 12312134",
-  //     imageSlug: "unl.png",
-  //   },
-  //   {
-  //     title: "NRDC",
-  //     description: "A coding challenge in Bhailang",
-  //     entryFee: "100rs",
-  //     members: "3 members per team",
-  //     prize: "12,000 prize pool",
-  //     contactNo: "+1 12312134",
-  //     imageSlug: "nrdc.png",
-  //   },
-  // ],
   "Tech Shield": [
+    {
+      title: "Tech Quiz",
+      description:
+        "Prove your tech-savvy skills in a quiz thats tests the limits of your technical expertise.",
+      entryFee: "100rs",
+      members: "3 members per team",
+      prize: "12,000 prize pool",
+      contactNo: "+1 12312134",
+      imageSlug: "techdebate.png",
+    },
     {
       title: "Technical Paper Presentation",
       description:
@@ -218,6 +210,18 @@ export const events: Record<string, EventInfo[]> = {
       prize: "10,000 prize pool",
       contactNo: "+1 12312134",
       imageSlug: "Realcricket24.jpg",
+    },
+  ],
+  "Tech MUN": [
+    {
+      title: "TECH MUN",
+      description:
+        "Dive into the dynamic intersection of technology and diplomacy as you engage with fellow delegates on groundbreaking topics that shape our world. Unleash your creativity, tackle real-world challenges, and showcase your negotiation skills in this innovative forum. Don’t miss your chance to be part of this historic event where the future of tech meets the art of governance!",
+      entryFee: "d",
+      members: "d",
+      prize: "d",
+      contactNo: "d",
+      imageSlug: "d",
     },
   ],
 };

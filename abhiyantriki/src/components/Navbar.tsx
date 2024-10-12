@@ -13,7 +13,7 @@ const NavbarItem: Component<NavbarItemProps> = ({
 }) => {
   return (
     <a
-      class="w-max text-sm mx-2 lg:mx-4 my-4 duration-500 hover:text-slate-500 active:text-slate-700"
+      class="mx-2 my-4 w-max text-sm duration-500 hover:text-slate-500 active:text-slate-700 lg:mx-4"
       onClick={() => setOpen((open) => (open ? !open : false))}
       {...rest}
     >

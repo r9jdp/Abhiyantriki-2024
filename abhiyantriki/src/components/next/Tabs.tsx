@@ -26,7 +26,11 @@ export const Tab: Component<TabProps> = ({
       onClick={[onClick, label]}
       {...rest}
     >
-      {label}
+      {label === "ParvahXAbhiyantriki" ? (
+        <div class="text-sm">{"ParvaahX\nAbhiyantriki"}</div>
+      ) : (
+        <div>{label}</div>
+      )}
     </button>
   );
 };
@@ -37,7 +41,7 @@ export interface TabsProps {
 
 export const Tabs: Component<TabsProps> = ({ children }) => {
   return (
-    <div class="flex flex-col rounded-xl bg-slate-700 py-1 md:flex-row">
+    <div class="flex flex-col rounded-xl bg-slate-700 py-1 font-bold md:flex-row">
       {children}
     </div>
   );
