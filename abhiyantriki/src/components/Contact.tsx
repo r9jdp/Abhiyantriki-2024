@@ -105,6 +105,12 @@ const Contact: Component = () => {
       </div>
 
       <div class=" dark:bg-white-700 m-auto my-8 h-1 w-10/12 rounded border-0 bg-gray-100 "></div>
+      <p
+        class="mb-5 text-center
+       text-xl text-white"
+      >
+        Made with &hearts; by CSI-KJSCE
+      </p>
     </footer>
   );
 };
