@@ -60,13 +60,13 @@ export const expos: Record<string, ExpoInfo[]> = {
       title: "Vayuputra (UAV for Payload delivery) - VJTI (college)",
       description:
         "Tech Expo is a unique exhibition and the most anticipated event at Abhiyantriki. With innovative technologies from all over the country, the Tech Expo contains exhibits from well-known organisations namely DRDO, ISRO, IMD, DAE and innovations ranging from speed-defying drones to humanoid robots with intellect on par with a human being.",
-      imageSlug: "/components/Expos/tech/djs phoenix.png",
+      imageSlug: "/components/Expos/tech/aero vjti.png",
     },
     {
       title: "Viyomkirna (Rnd in Quadcopter) - VJTI (college)",
       description:
         "Tech Expo is a unique exhibition and the most anticipated event at Abhiyantriki. With innovative technologies from all over the country, the Tech Expo contains exhibits from well-known organisations namely DRDO, ISRO, IMD, DAE and innovations ranging from speed-defying drones to humanoid robots with intellect on par with a human being.",
-      imageSlug: "tech/army 1.png",
+      imageSlug: "/components/Expos/tech/djs phoenix.png",
     },
     {
       title: "Redshift (MegaProject) - KJSCE",
