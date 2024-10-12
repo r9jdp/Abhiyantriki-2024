@@ -266,7 +266,7 @@ const Expos: Component = () => {
 
       <Dynamic component={expos[selected() as keyof typeof expos]} />
 
-      <div class="group flex items-center justify-center gap-5">
+      <div class="scrollbar-hide group flex items-center justify-center gap-5 overflow-x-auto">
         <button
           class="duration-200 hover:text-slate-500"
           onClick={prevButtonOnClick}
@@ -274,41 +274,43 @@ const Expos: Component = () => {
           <TbArrowLeft size={30} />
         </button>
 
-        {(() => {
-          const pages = paginateExpos(selectedExpos());
-          const pageIndex = selectedPage();
+        <div class="flex flex-col flex-nowrap md:flex-row">
+          {(() => {
+            const pages = paginateExpos(selectedExpos());
+            const pageIndex = selectedPage();
 
-          return pages[pageIndex].map(({ title, description, imageSlug }) => (
-            <div class="mt-20 flex h-[30rem] w-80 flex-col rounded-3xl bg-slate-950 p-3 text-center duration-500 hover:scale-105">
-              {selected() !== "Auto" &&
-                selected() !== "ParvahXAbhiyantriki" && (
-                  <div class="mb-4 flex justify-center overflow-hidden">
-                    <img
-                      src={imageSlug}
-                      class="m-auto h-56 w-64 object-cover"
-                    />
+            return pages[pageIndex].map(({ title, description, imageSlug }) => (
+              <div class="mx-2 mt-20 flex h-[30rem] w-80 flex-col rounded-3xl bg-slate-950 p-3 text-center duration-500 md:hover:scale-105">
+                {selected() !== "Auto" &&
+                  selected() !== "ParvahXAbhiyantriki" && (
+                    <div class="mb-4 flex justify-center overflow-hidden">
+                      <img
+                        src={imageSlug}
+                        class="m-auto h-56 w-64 object-cover"
+                      />
+                    </div>
+                  )}
+
+                <h1
+                  class={`m-auto p-5 text-center ${
+                    title === "Kumar Krishnamoorhty" ? "text-xl" : "text-2xl"
+                  } font-bold`}
+                >
+                  {title}
+                </h1>
+                <div class="relative flex-1 overflow-hidden">
+                  <div class="no-scrollbar max-h-24 overflow-y-auto">
+                    <p class="m-auto mt-5 text-center text-xs">{description}</p>
                   </div>
-                )}
-
-              <h1
-                class={`m-auto p-5 text-center ${
-                  title === "Kumar Krishnamoorhty" ? "text-xl" : "text-2xl"
-                } font-bold`}
-              >
-                {title}
-              </h1>
-              <div class="relative flex-1 overflow-hidden">
-                <div class="no-scrollbar max-h-24 overflow-y-auto">
-                  <p class="m-auto mt-5 text-center text-xs">{description}</p>
                 </div>
-              </div>
 
-              <button class="mt-10 rounded-full bg-blue-600 p-2 text-center uppercase text-white duration-200 hover:bg-gray-800">
-                View More
-              </button>
-            </div>
-          ));
-        })()}
+                <button class="mt-10 rounded-full bg-blue-600 p-2 text-center uppercase text-white duration-200 hover:bg-gray-800">
+                  View More
+                </button>
+              </div>
+            ));
+          })()}
+        </div>
 
         <button
           class="duration-200 hover:text-slate-500"

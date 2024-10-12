@@ -40,11 +40,7 @@ const Navbar: Component = () => {
             href="#expos"
             label="Expos & Speakers"
           />
-          <NavbarItem
-            setOpen={setOpen}
-            href="#getinvolved"
-            label="Get Involved"
-          />
+          <NavbarItem setOpen={setOpen} href="#getinvolved" label="Register" />
           <NavbarItem setOpen={setOpen} href="#sponsors" label="Sponsors" />
           <NavbarItem setOpen={setOpen} href="#contact" label="Contact" />
         </div>
@@ -69,11 +65,7 @@ const Navbar: Component = () => {
         <NavbarItem setOpen={setOpen} href="#home" label="home" />
         <NavbarItem setOpen={setOpen} href="#events" label="events" />
         <NavbarItem setOpen={setOpen} href="#expos" label="Expos & Speakers" />
-        <NavbarItem
-          setOpen={setOpen}
-          href="#getinvolved"
-          label="Get Involved"
-        />
+        <NavbarItem setOpen={setOpen} href="#getinvolved" label="Register" />
         <NavbarItem setOpen={setOpen} href="#sponsers" label="Sponsors" />
         <NavbarItem setOpen={setOpen} href="#contact" label="Contact" />
       </div>

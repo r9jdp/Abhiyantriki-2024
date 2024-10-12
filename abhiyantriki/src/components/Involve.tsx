@@ -16,7 +16,7 @@ const Involve: Component = () => {
         class="inline-flex w-32 cursor-pointer items-center gap-x-2 rounded-lg bg-gradient-to-r from-teal-500 to-teal-600 px-4 py-3 text-xl font-medium text-white shadow-lg transition-transform duration-200 hover:scale-105 hover:shadow-xl focus:outline-none disabled:pointer-events-none disabled:opacity-50"
         target="_blank"
       >
-        <p class="w-full rounded-full text-center font-sans text-2xl font-bold">
+        <p class="w-full rounded-xl text-center font-sans text-2xl font-bold">
           Register
         </p>
       </a>

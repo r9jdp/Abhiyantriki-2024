@@ -75,7 +75,7 @@ const Events: Component = () => {
                 contactNo,
                 imageSlug,
               }) => (
-                <div class="flex h-[32rem] w-[60vw] flex-col rounded-3xl bg-slate-700 p-5 transition-transform duration-300 ease-in-out hover:scale-105 hover:shadow-lg md:w-[20vw]">
+                <div class="flex h-[32rem] w-[80vw] flex-col rounded-3xl bg-slate-700 p-5 transition-transform duration-300 ease-in-out hover:scale-105 hover:shadow-lg md:w-[20vw]">
                   {selected() === "Tech Shield" ||
                   selected() === "Tech MUN" ? null : (
                     <img
@@ -112,15 +112,15 @@ const Events: Component = () => {
                           />
                           {entryFee}
                         </div>
-                        <div class="flex h-10 w-60 justify-center text-center text-sm">
+                        <div class="flex h-10 w-60 items-center justify-center text-center text-[0.7rem] md:text-sm">
                           <img class="h-8 gap-6" src="prize.png" />
                           {prize}
                         </div>
-                        <div class="flex h-10 w-60 justify-center text-center text-sm">
+                        <div class="flex h-10 w-60 items-center justify-center gap-3 text-sm">
                           <img class="h-5 gap-6" src="member.png" />
                           {members}
                         </div>
-                        <div class="flex h-10 w-60 justify-center text-center text-sm">
+                        <div class="item-center flex h-10 w-60 justify-center gap-2 text-sm">
                           <img class="h-6 gap-6" src="call.png" />
                           {contactNo}
                         </div>

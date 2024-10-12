@@ -40,7 +40,7 @@ export const events: Record<string, EventInfo[]> = {
       imageSlug: "crackathon.png",
     },
     {
-      title: "Arthemis",
+      title: "Artemis",
       description: "HackerRank and Codechef based coding competition",
       entryFee: "50rs per participant",
       members: "GROUP COMPETITION",

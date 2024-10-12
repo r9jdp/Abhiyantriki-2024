@@ -10,7 +10,7 @@ export const expos: Record<string, ExpoInfo[]> = {
       title: "Indian Army",
       description:
         "15th Assam Regiment - Known for their valor and resilience, the 15th Assam Regiment plays a crucial role in safeguarding our nation’s borders while executing complex missions in diverse terrains.",
-      imageSlug: "Airforce.png",
+      imageSlug: "tech/army 1.png",
     },
     {
       title: "Indian Air force",
@@ -132,7 +132,7 @@ export const expos: Record<string, ExpoInfo[]> = {
       title: "Wolfx",
       description:
         "WOLFx: A leader in Website Development, Mobile App Development, UI/UX/CX, Server Deployment, IT Consultation, Digital Marketing and Cybersecurity Services.",
-      imageSlug: "components/Sponsors/2024/Wolfx.png",
+      imageSlug: "components/Sponsors/2024/WolfX.png",
     },
     {
       title: "Nirmal Bang Securities",
