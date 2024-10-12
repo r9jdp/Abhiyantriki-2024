@@ -96,6 +96,7 @@ const Events: Component = () => {
                       <div>
                         <a
                           href="https://docs.google.com/forms/d/e/1FAIpQLScK7J2JFOn0avxhRg883Ca0o42csOAzOLingqUlvbyJ4iYCtg/viewform?usp=sharing"
+                          target="_blank"
                           type="button"
                           class="mb-2 me-2 cursor-pointer rounded-full bg-green-700 px-5 py-2.5 text-center text-sm font-medium text-white hover:bg-green-800 focus:outline-none focus:ring-4 focus:ring-green-300 dark:bg-green-600 dark:hover:bg-green-700 dark:focus:ring-green-800"
                         >
@@ -125,7 +126,8 @@ const Events: Component = () => {
                         </div>
                         <div>
                           <a
-                            href="#"
+                            href="https://docs.google.com/forms/d/e/1FAIpQLSfk7jtMHSv7ntDcgkGBHt46mHqVsqYYXxBpniSBt9st1SDv6Q/viewform"
+                            target="_blank"
                             type="button"
                             class="mb-2 me-2 cursor-pointer rounded-full bg-green-700 px-5 py-2.5 text-center text-sm font-medium text-white hover:bg-green-800 focus:outline-none focus:ring-4 focus:ring-green-300 dark:bg-green-600 dark:hover:bg-green-700 dark:focus:ring-green-800"
                           >

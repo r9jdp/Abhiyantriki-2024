@@ -113,25 +113,32 @@ const YEARS = {
     "Online_Media_Partner_11",
   ],
   "2024": [
-    "Technology_Partner",
-    "Finance_Partner",
-    "Auto_Expo_Partner",
-    "Online_Media_Partner",
-    "Prevalent_Automotive",
     "UBONA_GREAT_Master",
-    "Sach_Kahoon",
-    "Sachi_Shiksha",
-    "Red_FM",
-    "Flite_Labs",
-    // "Wolfx",
+    "Under_25",
+    "HDFC_Credila",
     "KRAFTON_IN_ESPORTS",
+    "Auto_Expo_Partner",
+    "TVS",
+    "Console",
+    "Technology_Partner",
+    "Flite_Labs",
+    "Lyondell_Basell",
+    "Nirmal_Bang",
+    "WolfX",
+    "Sach_Kahoon",
+    "Red_FM",
+    "Online_Media_Partner",
+    "The_Fresh_Press",
+    "Sachi_Shiksha",
+    "Naomi_Bhatia",
+    "Prevalent_Automotive",
+    "Belgian_Waffle",
+    "The_Mexican_Churros",
   ],
 } as const;
 
 const Sponsors: Component = () => {
   const [selected, setSelected] = createSignal<keyof typeof YEARS>("2021");
-  const wolfx_url =
-    "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSaxGQ_TaKYLhYeMF9zKBTUwtQmFU02OmvvCA&s";
   return (
     <div
       id="sponsors"
@@ -175,10 +182,6 @@ const Sponsors: Component = () => {
             </div>
           )}
         </For>
-        <div class="  m-2 items-center justify-center">
-          <img src={wolfx_url} alt="Wolfx" />
-          <h1 class="my-5 text-center text-xs font-bold ">Wolfx</h1>
-        </div>
       </div>
     </div>
   );
