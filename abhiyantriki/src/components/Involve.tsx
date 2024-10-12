@@ -4,9 +4,11 @@ const Involve: Component = () => {
   return (
     <div
       id="getinvolved"
-      class="m-16 flex w-full flex-col items-center justify-center rounded-lg p-10 shadow-lg"
+      class="flex w-full flex-col items-center justify-center rounded-lg p-10 shadow-lg"
     >
-      <h1 class="m-5 text-4xl font-extrabold ">Join Us for Abhiyantriki!</h1>
+      <h1 class="m-5 text-xl font-extrabold md:text-4xl ">
+        Join Us for Abhiyantriki!
+      </h1>
 
       <a
         type="button"

@@ -1,13 +1,3 @@
-export interface EventInfo {
-  title: string;
-  description: string;
-  entryFee: string;
-  members: string;
-  prize: string;
-  contactNo: string;
-  imageSlug: string;
-}
-
 export const events: Record<string, EventInfo[]> = {
   Tech: [
     {
@@ -17,7 +7,7 @@ export const events: Record<string, EventInfo[]> = {
       entryFee: "50rs Per Participant",
       members: "GROUP COMPETITION",
       prize: "Cash prize worth 8k Goodies worth 20k",
-      contactNo: "+1 12312134",
+      contactNo: "9987853030, 8355821436",
       imageSlug: "bitbybit.png",
     },
     {
@@ -27,7 +17,7 @@ export const events: Record<string, EventInfo[]> = {
       entryFee: "250rs Per Participant",
       members: "INDIVIDUAL COMPETITION",
       prize: "Cash prize worth 8k Goodies worth 20k",
-      contactNo: "+1 12312134",
+      contactNo: "9987853030, 8355821436",
       imageSlug: "bitbybit.png",
     },
     {
@@ -36,7 +26,7 @@ export const events: Record<string, EventInfo[]> = {
       entryFee: "150rs",
       members: "INDIVIDUAL COMPETITION",
       prize: "13,000 prize pool",
-      contactNo: "+1 12312134",
+      contactNo: "9987853030, 8355821436",
       imageSlug: "crackathon.png",
     },
     {
@@ -45,7 +35,7 @@ export const events: Record<string, EventInfo[]> = {
       entryFee: "50rs per participant",
       members: "GROUP COMPETITION",
       prize: "30,000 prize pool",
-      contactNo: "+1 12312134",
+      contactNo: "9987853030, 8355821436",
       imageSlug: "crackathon.png",
     },
     {
@@ -54,7 +44,7 @@ export const events: Record<string, EventInfo[]> = {
       entryFee: "200Rs For 1 person and 250Rs for team of 2",
       members: "1/2 members per team",
       prize: "5000 prize pool and Exciting Goodies",
-      contactNo: "+1 12312134",
+      contactNo: "9987853030, 8355821436",
       imageSlug: "crackathon.png",
     },
     {
@@ -64,7 +54,7 @@ export const events: Record<string, EventInfo[]> = {
       entryFee: "RS.100 per/RS.150 PER DUO",
       members: "1/2 members per team",
       prize: "2,000 AND EXCITING GOODIES",
-      contactNo: "+1 12312134",
+      contactNo: "9987853030, 8355821436",
       imageSlug: "bitbybit.png",
     },
     {
@@ -74,7 +64,7 @@ export const events: Record<string, EventInfo[]> = {
       entryFee: "RS. 100 PER TEAM",
       members: "GROUP COMPETETION",
       prize: "4,000 prize money",
-      contactNo: "+1 12312134",
+      contactNo: "9987853030, 8355821436",
       imageSlug: "electrohunt.png",
     },
     {
@@ -84,7 +74,7 @@ export const events: Record<string, EventInfo[]> = {
       entryFee: "50rs PER PERSON",
       members: "iNDIVIDUAL",
       prize: "5,000 PRIZE POOL",
-      contactNo: "+1 12312134",
+      contactNo: "9987853030, 8355821436",
       imageSlug: "pong.png",
     },
     {
@@ -94,7 +84,7 @@ export const events: Record<string, EventInfo[]> = {
       entryFee: "50RS per person / 80Rs per duo",
       members: "SOLO/DUO",
       prize: "RS. 5,000 PRIZE POOL",
-      contactNo: "+1 12312134",
+      contactNo: "9987853030, 8355821436",
       imageSlug: "operation.png",
     },
     {
@@ -104,7 +94,7 @@ export const events: Record<string, EventInfo[]> = {
       entryFee: "250rs per team",
       members: "4-5 members per team",
       prize: "4,000 prize pool",
-      contactNo: "+1 12312134",
+      contactNo: "9987853030, 8355821436",
       imageSlug: "rush.png",
     },
   ],
@@ -112,11 +102,11 @@ export const events: Record<string, EventInfo[]> = {
     {
       title: "Tech Quiz",
       description:
-        "Prove your tech-savvy skills in a quiz thats tests the limits of your technical expertise.",
+        "Prove your tech-savvy skills in a quiz that tests the limits of your technical expertise.",
       entryFee: "100rs",
       members: "3 members per team",
       prize: "12,000 prize pool",
-      contactNo: "+1 12312134",
+      contactNo: "9987853030, 8355821436",
       imageSlug: "techdebate.png",
     },
     {
@@ -126,7 +116,7 @@ export const events: Record<string, EventInfo[]> = {
       entryFee: "100rs",
       members: "3 members per team",
       prize: "12,000 prize pool",
-      contactNo: "+1 12312134",
+      contactNo: "9987853030, 8355821436",
       imageSlug: "techdebate.png",
     },
     {
@@ -136,7 +126,7 @@ export const events: Record<string, EventInfo[]> = {
       entryFee: "100rs",
       members: "3 members per team",
       prize: "12,000 prize pool",
-      contactNo: "+1 12312134",
+      contactNo: "9987853030, 8355821436",
       imageSlug: "technovate.png",
     },
     {
@@ -146,7 +136,7 @@ export const events: Record<string, EventInfo[]> = {
       entryFee: "100rs",
       members: "3 members per team",
       prize: "12,000 prize pool",
-      contactNo: "+1 12312134",
+      contactNo: "9987853030, 8355821436",
       imageSlug: "techhunt.png",
     },
   ],
@@ -158,7 +148,7 @@ export const events: Record<string, EventInfo[]> = {
       entryFee: "150rs",
       members: "Individual",
       prize: "21,000 prize pool",
-      contactNo: "+1 12312134",
+      contactNo: "9987853030, 8355821436",
       imageSlug: "FIFA.png",
     },
     {
@@ -168,7 +158,7 @@ export const events: Record<string, EventInfo[]> = {
       entryFee: "300rs",
       members: "5 members per team",
       prize: "22,000 prize pool",
-      contactNo: "+1 12312134",
+      contactNo: "9987853030, 8355821436",
       imageSlug: "valorant.png",
     },
     {
@@ -178,7 +168,7 @@ export const events: Record<string, EventInfo[]> = {
       entryFee: "FREE",
       members: "4 members per team",
       prize: "20,000 prize pool",
-      contactNo: "+1 12312134",
+      contactNo: "9987853030, 8355821436",
       imageSlug: "BGMI2.jpg",
     },
     {
@@ -188,7 +178,7 @@ export const events: Record<string, EventInfo[]> = {
       entryFee: "FREE",
       members: "Individual",
       prize: "10,000 prize pool",
-      contactNo: "+1 12312134",
+      contactNo: "9987853030, 8355821436",
       imageSlug: "Bullet_Echo.jpeg",
     },
     {
@@ -198,7 +188,7 @@ export const events: Record<string, EventInfo[]> = {
       entryFee: "FREE",
       members: "Individual",
       prize: "10,000 prize pool",
-      contactNo: "+1 12312134",
+      contactNo: "9987853030, 8355821436",
       imageSlug: "RoadtoValorEmpires.png",
     },
     {
@@ -208,7 +198,7 @@ export const events: Record<string, EventInfo[]> = {
       entryFee: "FREE",
       members: "Individual",
       prize: "10,000 prize pool",
-      contactNo: "+1 12312134",
+      contactNo: "9987853030, 8355821436",
       imageSlug: "Realcricket24.jpg",
     },
   ],
