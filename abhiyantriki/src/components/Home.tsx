@@ -23,9 +23,9 @@ const Home: Component = () => {
           <div class="h-40 p-8">
             <img src="withdate_loading.png" alt="" />
           </div>
-          <div class="hide">
+          {/* <div class="hide">
             <img src="abhiyantriki3.png" alt="" />
-          </div>
+          </div> */}
         </div>
         <div
           id="txt"
