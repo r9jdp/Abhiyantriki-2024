@@ -1,3 +1,13 @@
+export interface EventInfo {
+  title: string;
+  description: string;
+  entryFee: string;
+  members: string;
+  prize: string;
+  contactNo: string;
+  imageSlug: string;
+}
+
 export const events: Record<string, EventInfo[]> = {
   Tech: [
     {
