@@ -10,14 +10,14 @@ export const expos: Record<string, ExpoInfo[]> = {
       title: "Indian Army",
       description:
         "15th Assam Regiment - Known for their valor and resilience, the 15th Assam Regiment plays a crucial role in safeguarding our nation’s borders while executing complex missions in diverse terrains.",
-      imageSlug: "tech/army 1.png",
+      imageSlug:
+        "https://wallpapers.com/images/hd/indian-army-logo-red-background-9yyeqs1cn57bvbtt.jpg",
     },
     {
       title: "Indian Air force",
       description:
         "The Tech Expo will be hosting the dignified Indian Air Force at Abhiyantriki this year. The Indian Air Force will be displaying a wide range of their weaponry and intriguing models, which is certain to leave one fascinated.",
-      imageSlug:
-        "https://wallpapers.com/images/hd/indian-army-logo-red-background-9yyeqs1cn57bvbtt.jpg",
+      imageSlug: "Airforce.png",
     },
     {
       title: "C.A.S.M.B",

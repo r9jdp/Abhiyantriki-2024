@@ -280,7 +280,7 @@ const Expos: Component = () => {
             const pageIndex = selectedPage();
 
             return pages[pageIndex].map(({ title, description, imageSlug }) => (
-              <div class="mx-2 mt-20 flex h-[30rem] w-80 flex-col rounded-3xl bg-slate-950 p-3 text-center duration-500 md:hover:scale-105">
+              <div class="mx-2 mt-20 flex h-[30rem] w-[16.5rem] flex-col rounded-3xl bg-slate-950 p-3 text-center duration-500 md:w-80 md:hover:scale-105">
                 {selected() !== "Auto" &&
                   selected() !== "ParvahXAbhiyantriki" && (
                     <div class="mb-4 flex justify-center overflow-hidden">

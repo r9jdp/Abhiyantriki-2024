@@ -20,7 +20,7 @@ const Home: Component = () => {
         />
 
         <div class="show m-auto -mt-10 flex -translate-x-2/4 -translate-y-[50vh] flex-col items-center justify-center gap-[50px] font-black md:mt-1 md:hidden md:-translate-y-2/4">
-          <div class="h-40">
+          <div class="h-40 p-8">
             <img src="withdate_loading.png" alt="" />
           </div>
           <div class="hide">
